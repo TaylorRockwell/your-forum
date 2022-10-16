@@ -1,0 +1,20 @@
+<!-- Displaying Posts -->
+
+<div class="d-flex p-2 justify-content-center">
+  
+<div class="jumbotron jumbotron-fluid">
+  <h1>Welcome to Your Forum</h1>
+            <div class="container">
+              
+              <h4>Check out some groups!</h4>
+              {{#each groups as |group| }}
+              <div class="card" style="width: 16rem;" >
+                <div class="card-header text-center">
+                    <h2> <a class="text-light" href="/group/{{group.id}}">{{group.name}}</a></h2>
+                </div>
+            </div>
+            {{/each}}
+              
+            </div>
+          </div>
+</div>
