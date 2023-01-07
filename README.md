@@ -13,7 +13,7 @@
   
 ## Description
 
-* A public discussion forum where the user in charge of the experience. This is a group project pasted from my previous profile, all work is not my own. 
+* A public discussion forum where the user in charge of the experience. This is a group project pasted from my previous profile. 
   
 ## Installation
 
